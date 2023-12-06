@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Custom News Portal</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <div class="outer-wrap">
+      <div class="inner-wrap">
+        <section class="heading">
+          <p class="title">notNotion</p>
+          <p class="subtitle">Your Custom News Portal</p>
+        </section>
+        <section class="news">
+          <div class="category">
+            <span class="active" data-url="/everything?q=tesla&from=2023-12-05&sortBy=publishedAt">US (All)</span>
+            <span data-url="/top-headlines?country=us&category=business">US (Business)</span>
+            <span data-url="/everything?q=crypto&sortBy=publishedAt">Cryptocurrency</span>
+            <span data-url="/top-headlines?sources=techcrunch">TechCrunch</span>
+          </div>
+          <div class="cards"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
